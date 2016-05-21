@@ -1,0 +1,21 @@
+
+2016-02-25
+
+I can't tell which exact services can be safely disabled, but these ones look not so necessary :
+Diagnostic Policy Service,
+Diagnostics Tracking Service (very few info on this one),
+Shell Hardware Detection (the old version of CD autorun (or autoplay) was a nonsense; however, these days this service might do something necessary - I don't know),
+SuperFetch (for a medium-memory systems this memory management tool is very helpful, but for a high-memory systems it might be a superfluous item),
+Windows Font Cache Service (same as SuperFetch);
+Delivery Optimization (if you don't need Windows' updates),
+Downloaded Maps Manager (for Maps application),
+Windows Search (well, if you don't use Windows Search),
+dmwappushservice (Telemetry and Data Collection),
+
+There also are alot of services for security purposes which I skipped :
+Windows Defender Service,
+Windows Firewall;
+Security Center,
+
+Basically, I don't disable any of them for the moment.
+

@@ -1,0 +1,12 @@
+	2016-02-16 - 2016-05-20
+	composed and collected by Alexander Ilyin
+
+
+Collection of scripts to use after Windows 10 installation.
+
+*these script aren't necessarily harmless; it would be good to make a Restore Point first, and read the content of a script before running it.
+
+The order of folders had the meaning of launch order for WinXP; now it likely is meaningless and the scripts can be run in any order.
+Folder "5" has purely Win10-specific scripts.
+Some scripts (if not all) require that they would be started with Administrator privileges.
+

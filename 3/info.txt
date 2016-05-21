@@ -1,0 +1,14 @@
+
+You can see all available locales running this powershell script :
+
+$cultures = [globalization.cultureinfo]::GetCultures(“allCultures”)
+foreach ($c in $cultures)
+
+{
+
+$culture = New-Object system.globalization.cultureinfo($c)
+
+$culture.name
+
+}
+

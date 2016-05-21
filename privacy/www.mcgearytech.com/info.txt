@@ -1,0 +1,13 @@
+
+2016-02-16
+
+Scripts for setting privacy in Windows 10 policies.
+
+
+
+https://community.spiceworks.com/topic/1124507-windows-10-privacy-settings-and-updates-script
+http://www.mcgearytech.com/windows-10-privacy-fixes-script/
+http://www.mcgearytech.com/wp-content/uploads/2015/08/windows10scripts.zip
+
+I had to modify some stuff in them that they would work completely without any issues.
+

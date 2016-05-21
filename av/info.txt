@@ -1,0 +1,15 @@
+
+2016-05-17
+
+This is to avoid annoying popups which Avira might produce (I though didn't get any in the period of this 1 month while I was doing this and that).
+*"avira_ipmgui_off.bat" might do some part of work for you, but I currently did not make it work, so here is the description on how to do the things manually.
+To manipulate "C:\Program Files (x86)\Avira\Antivirus\ipmgui.exe" file permissions, in Avira 15.0.17.273 go to [Free] Antivirus or Manage Antivirus -> press any of "Open configuration" gear wheel icons to appear in another window Avira [Free] Antivirus -> General -> Security -> Protect files and registry entries from manipulation (disable it).
+*Now, here is the place where "avira_ipmgui_off.bat" might do some actual work for you, but I didn't finish it.
+Go at "ipmgui.exe" Properties -> Security -> Advanced, now disable inheritance (or otherwise any changes in settings will not be allowed (but only viewable)).
+Do whatever you need with the file permissions of "ipmgui.exe" (disallow its execution).
+Enable "Protect files and registry entries from manipulation".
+Reboot.
+
+Well, this actually doesn't work :)
+Once you enable "Protect files and registry entries from manipulation", Avira returns the permission inheritance to "ipmgui.exe".
+

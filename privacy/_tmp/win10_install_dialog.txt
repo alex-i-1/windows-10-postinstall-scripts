@@ -1,0 +1,56 @@
+
+2016-02-14
+
+An installation dialog asks about these settings; you were ignoring them at that moment and need to set them now.
+
+
+
+customize settings
+
+personalization
+
+speech, typing, inking
+off
+
+send typing, inking
+off
++
+(turned off after telemetry was off)
+
+let apps use your advertising ID
+off
++
+
+location
+
+let win and apps request your location ... send ms and trusted partners ...
+off
+(+)
+
+browser and protection
+
+use smartscreen
+off
++
+
+use page prediction
+off
+
+connectivity and error reporting
+
+auto connect to suggested open hotspots
+off
+
+auto connect to networks shared by your contacts
+off
+
+send error and diagnostic information to ms
+off
++
+(telemetry off)
+
+
+
+Note that these registry files are for local-machine keys, - they though work after installation, but once you've triggered the settings manually, a current-user keys are created and the local-machine keys are not in use anymore.
+Thus either don't touch the settings manually, or switch them manually back, or modify these scripts to affect current-user keys instead local-machine.
+
